@@ -16,9 +16,12 @@
     "dependencies": {
         "node-fetch": "^2.6.1"
     },
+    "engines": {
+        "parcel": "2.x"
+    },
     "main": "index.js",
     "scripts": {
-        "push-and-publish": "npm version patch; git add *; git commit -m \"Commit message\"; git push; npm publish"
+        "push-and-publish": "npm version patch; git add *; git push; npm publish"
     },
     "repository": {
         "type": "git",
