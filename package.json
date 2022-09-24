@@ -1,7 +1,7 @@
 {
     "name": "parcel-transformer-inline-source",
     "description": "Inline all flagged js, css source files",
-    "version": "1.0.6",
+    "version": "1.0.7",
     "author": "san",
     "keywords": [
         "parcel",
