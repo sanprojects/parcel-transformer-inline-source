@@ -14,7 +14,6 @@
         "css"
     ],
     "dependencies": {
-        "inline-source": "^6.1.9",
         "node-fetch": "^2.6.1"
     },
     "main": "index.js",
