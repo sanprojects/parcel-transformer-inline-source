@@ -18,7 +18,7 @@
     },
     "main": "index.js",
     "scripts": {
-        "publish": "npm publish --access public"
+        "publish": "npm version patch; git add *; git commit -m \"Commit message\"; git push; npm publish"
     },
     "repository": {
         "type": "git",
