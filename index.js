@@ -1,9 +1,7 @@
 const fs = require('fs')
-const mime = require('mime-types')
 const {resolve, dirname} = require("path");
 const fetch = require('node-fetch');
 const { Transformer } = require('@parcel/plugin');
-const { inlineSource } = require('inline-source');
 
 var sourceDir = '';
 
