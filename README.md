@@ -10,7 +10,7 @@ npm i parcel-transformer-inline-source --save-dev
 Add to `.parcelrc`
 ```json
 {
-  "transformers": { "*": ["...", "parcel-transformer-inline-source"] }
+  "transformers": { "*": ["parcel-transformer-inline-source", "..."] }
 }
 ```
 
